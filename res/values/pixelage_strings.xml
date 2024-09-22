@@ -249,4 +249,12 @@
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
     <string name="charging_control_limit_title">Limit</string>
     <string name="reset">Reset</string>
+
+    <!-- Circle to Search -->
+    <string name="search_gesture_category_title">Search</string>
+    <string name="search_gesture_feature_summary">Touch and hold the Home button or the navigation handle to search using the content on your screen.</string>
+    <string name="search_gesture_feature_title">Circle to Search</string>
+    <string name="search_menu">Search settings</string>
+    <string name="search_menu_title">Search</string>
+    <string name="search_settings">Search</string>
 </resources>
