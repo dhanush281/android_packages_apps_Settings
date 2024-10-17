@@ -65,18 +65,18 @@
         settings:controller="com.android.settings.deviceinfo.batteryinfo.BatteryInfoPreferenceController"
         settings:keywords="@string/keywords_battery_info" />
 
-    <SwitchPreferenceCompat
-        android:key="battery_percentage"
-        android:title="@string/battery_percentage"
-        android:summary="@string/battery_percentage_description"
-        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
-
     <Preference
         android:key="charging_control"
         android:title="@string/charging_control_title"
         android:summary="@string/charging_control_summary"
         android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
         settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController" />
+
+    <SwitchPreferenceCompat
+        android:key="battery_percentage"
+        android:title="@string/battery_percentage"
+        android:summary="@string/battery_percentage_description"
+        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
