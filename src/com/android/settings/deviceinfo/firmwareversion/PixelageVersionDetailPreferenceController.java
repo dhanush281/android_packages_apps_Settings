@@ -39,7 +39,7 @@ public class PixelageVersionDetailPreferenceController extends BasePreferenceCon
 
     private static final String TAG = "PixelageVersionDialogCtrl";
 
-    private static final String KEY_PIXELAGE_VERSION_PROP = "ro.pixelage.version";
+    private static final String KEY_PIXELAGE_VERSION_PROP = "ro.pixelage.build.version";
 
     public PixelageVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
