@@ -19,7 +19,7 @@
     <!-- Android version screen, build maintainer -->
     <string name="pixelage_version">Project Pixelage version</string>
     <string name="build_maintainer">Maintainer</string>
-    <string name="build_maintainer_summary" translatable="false">clarencelol</string>
+    <string name="build_maintainer_summary" translatable="false">Dhanush</string>
 
     <!-- General -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
